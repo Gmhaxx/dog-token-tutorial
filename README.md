@@ -32,6 +32,24 @@ The ERC20 token implementation includes:
 - No additional minting capability.
 - No special roles or permissions.
 
+### Prerequisites
+# Before starting, ensure you have:
+
+- Node.js installed (v16 or later)
+- Git installed
+- Foundry installed
+- Some MONAD testnet tokens (for gas fees)
+- Basic knowledge of Solidity and ERC20 tokens
+
+## Install Dependencies
+```bash
+sudo apt-get update
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo apt-get install -y git
+```
+
+
 ## Project Setup
 - First, clone the starter repository:
 ```bash
