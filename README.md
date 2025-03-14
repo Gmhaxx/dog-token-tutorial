@@ -64,6 +64,9 @@ curl -L https://foundry.paradigm.xyz | bash
 export PATH="$HOME/.foundry/bin:$PATH"
 ```
 ```bash
+foundryup
+```
+```bash
 forge --version
 ```
 
