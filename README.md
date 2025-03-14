@@ -32,6 +32,23 @@ The ERC20 token implementation includes:
 - No additional minting capability.
 - No special roles or permissions.
 
+## Project Setup
+- First, clone the starter repository:
+```bash
+git clone https://github.com/Gmhax/dog-token-tutorial.git
+cd dog-token-tutorial
+```
+## Install Forge
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+```
+```bash
+export PATH="$HOME/.foundry/bin:$PATH"
+```
+```bash
+forge --version
+```
+
 ## Testing Instructions
 
 Before deploying to the Monad testnet, verify the contract functionality:
